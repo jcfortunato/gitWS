@@ -1,5 +1,7 @@
 # define FCY  29491000L  //number of instructions per milisecond Fclock=7372800Hz and PLL=16
 
+
+
   
 _FOSC(CSW_FSCM_OFF & XT_PLL16);  //oscilator at 16x cristal frequency
 _FWDT(WDT_OFF);                  //watchdog timer off
