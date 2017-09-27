@@ -3,6 +3,7 @@
   
 _FOSC(CSW_FSCM_OFF & XT_PLL16);  //oscilator at 16x cristal frequency
 _FWDT(WDT_OFF);                  //watchdog timer off
+
   
 #define LED1   _LATF0   //define port for LED1
 #define LED2   _LATF1   //define port for LED1
